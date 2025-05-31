@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>دنیای طراحی و دوخت</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.fontcdn.ir/Font/Persian/Vazir/Vazir.css" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<body>
+
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">دنیای طراحی و دوخت</div>
+      <ul class="menu">
+        <li><a href="#">خانه</a></li>
+        <li><a href="#">دوره‌ها</a></li>
+        <li><a href="#">نمونه‌کارها</a></li>
+        <li><a href="#">تماس با ما</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h1>با هنر خود بدرخشید ✨</h1>
+      <p>با آموزش‌های حرفه‌ای طراحی و دوخت، مسیر خود را بسازید</p>
+      <a href="#" class="btn">شروع یادگیری</a>
+    </div>
+  </header>
+
+  <section class="about reveal">
+    <h2>درباره ما</h2>
+    <p>
+      ما در دنیای طراحی و دوخت، باور داریم هرکسی می‌تونه خلاقیتش رو با پارچه و نخ به نمایش بذاره.
+      دوره‌های ما از مبتدی تا پیشرفته طراحی شدن تا بهت کمک کنن از پایه تا تخصص رشد کنی.
+    </p>
+  </section>
+
+  <section class="courses reveal">
+    <h2>دوره‌های ویژه</h2>
+    <div class="course-grid">
+      <div class="course-card">
+        <h3>آموزش مانتوی مدرن</h3>
+        <p>۱۰ جلسه | صفر تا صد</p>
+      </div>
+      <div class="course-card">
+        <h3>الگوکشی حرفه‌ای</h3>
+        <p>۸ جلسه | الگوهای لباس مجلسی</p>
+      </div>
+      <div class="course-card">
+        <h3>دوخت لباس شب</h3>
+        <p>۱۲ جلسه | طراحی تا اجرا</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 دنیای طراحی و دوخت | طراحی‌شده با عشق ❤️ و سوزن 🧵</p>
+  </footer>
+
+  <script>
+    const reveals = document.querySelectorAll(".reveal");
+    window.addEventListener("scroll", () => {
+      for (let i = 0; i < reveals.length; i++) {
+        const windowHeight = window.innerHeight;
+        const elementTop = reveals[i].getBoundingClientRect().top;
+        const revealPoint = 150;
+        if (elementTop < windowHeight - revealPoint) {
+          reveals[i].classList.add("active");
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>
+<section class="features reveal">
+  <h2>چرا دنیای طراحی و دوخت؟</h2>
+  <div class="features-grid">
+    <div class="feature-box">
+      <h3>آموزش صفر تا صد</h3>
+      <p>تمام مراحل آموزش از مبتدی تا پیشرفته، با پشتیبانی کامل</p>
+    </div>
+    <div class="feature-box">
+      <h3>مدرک معتبر</h3>
+      <p>با پایان دوره‌ها مدرک رسمی قابل استفاده برای بازار کار دریافت می‌کنید</p>
+    </div>
+    <div class="feature-box">
+      <h3>اساتید باتجربه</h3>
+      <p>آموزش توسط اساتید حرفه‌ای با سال‌ها سابقه در صنعت پوشاک</p>
+    </div>
+    <div class="feature-box">
+      <h3>پشتیبانی دائمی</h3>
+      <p>در تمام مراحل یادگیری همراهت هستیم تا به هدف برسی</p>
+    </div>
+  </div>
+</section>
+<section class="features reveal">
+  <h2 class="section-title">چرا دنیای طراحی و دوخت؟</h2>
+  <div class="features-grid">
+    <div class="feature-box">
+      <i class="fa-solid fa-lightbulb feature-icon"></i>
+      <h3>آموزش خلاقانه</h3>
+      <p>تکنیک‌های روز طراحی لباس همراه با تمرین عملی و نمونه‌سازی</p>
+    </div>
+    <div class="feature-box">
+      <i class="fa-solid fa-certificate feature-icon"></i>
+      <h3>مدرک بین‌المللی</h3>
+      <p>قابل ارائه به مزون‌ها، برندها و حتی خارج از کشور</p>
+    </div>
+    <div class="feature-box">
+      <i class="fa-solid fa-user-tie feature-icon"></i>
+      <h3>اساتید حرفه‌ای</h3>
+      <p>با تجربه واقعی در صنعت مد و پوشاک، نه فقط تئوری!</p>
+    </div>
+    <div class="feature-box">
+      <i class="fa-solid fa-headset feature-icon"></i>
+      <h3>پشتیبانی دائمی</h3>
+      <p>از اولین روز تا اولین فروش، ما همراهتیم!</p>
+    </div>
+  </div>
+</section>
+<section class="gallery reveal">
+  <h2 class="section-title">نمونه‌کارهای هنرجویان</h2>
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="images/1.jpg" alt="نمونه‌کار 1">
+    </div>
+    <div class="gallery-item">
+      <img src="images/2.jpg" alt="نمونه‌کار 2">
+    </div>
+    <div class="gallery-item">
+      <img src="images/3.jpg" alt="نمونه‌کار 3">
+    </div>
+    <div class="gallery-item">
+      <img src="images/4.jpg" alt="نمونه‌کار 4">
+    </div>
+    <div class="gallery-item">
+      <img src="images/5.jpg" alt="نمونه‌کار 5">
+    </div>
+    <div class="gallery-item">
+      <img src="images/6.jpg" alt="نمونه‌کار 6">
+    </div>
+  </div>
+</section>
